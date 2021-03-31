@@ -1,8 +1,8 @@
 {
-  "name": "cdk test",
+  "name": "cdk-test",
   "version": "0.1.0",
   "bin": {
-    "cdk test": "bin/cdk test.js"
+    "cdk-test": "bin/cdk-test.js"
   },
   "scripts": {
     "build": "tsc",
@@ -21,7 +21,15 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.95.1",
+    "@aws-cdk/aws-cognito": "^1.95.1",
+    "@aws-cdk/aws-lambda": "^1.95.1",
     "@aws-cdk/core": "1.95.1",
-    "source-map-support": "^0.5.16"
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "prettier": "^2.2.1",
+    "puppeteer": "^8.0.0",
+    "source-map-support": "^0.5.16",
+    "typeorm": "^0.2.32"
   }
 }
